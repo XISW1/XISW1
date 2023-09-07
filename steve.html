@@ -1,3 +1,119 @@
 <!DOCTYPE html>
-<!-- saved from url=(0140)https://www.bing.com/search?PC=U523&q=cookie+clicker+grandmapocalypse&FORM=ANAB01&adlt=strict&toWww=1&redig=5D0BF541EBE349C5B87FD5BE370CA1D0 -->
-<html></html>
+<html>
+<head>
+
+
+
+
+
+
+
+
+
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .container {
+            margin: 100px auto;
+            width: 300px;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 10px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <script>
+    
+    
+    // password is 5
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+
+
+
+            const Steve = document.getElementById("username").value;
+            const Steve2 = document.getElementById("password").value;
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            if (Steve === "XISW10" && Steve2 === "5") {
+                // Set a cookie to "lock out" the user
+                document.cookie = "lockedOut=true; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+                alert("You have been locked out of the site.");
+            } else if (Steve === "XISW10" && Steve2 === "12345678") {
+                alert("Login successful!");
+            } else {
+                alert("Login failed. Please check your username and password.");
+            }
+        });
+    </script>
+</body>
+</html>
